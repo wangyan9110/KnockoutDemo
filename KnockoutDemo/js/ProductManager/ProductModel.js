@@ -5,16 +5,16 @@
  * Describe:create a product model
  */
 
-(function (product) {
+(function (productDemo) {
 
     function Product() {
         var _self = this;
 
         _self.name = ko.observable("");
 
-        _self.description = ko.observale("");
+        _self.description = ko.observable("");
 
-        _self.price = ko.observale(0.00);
+        _self.price = ko.observable(0.00);
 
         _self.quantity = ko.observable(0);
 
