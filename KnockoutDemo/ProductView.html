@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <select data-bind="options:productCollection,value:listViewSelectedItem,optionsText:'name'">
+
+    </select>
+</div>
+<div>
+    <p>Name:<input type="text" data-bind="value:name"/></p>
+
+    <p>Description:<input type="text" data-bind="value:description"/></p>
+
+    <p>Price:<input type="text" data-bind="value:price"/></p>
+
+    <p>Quantity:<input type="text" data-bind="value:quantity"/></p>
+
+    <p>Cost:<span data-bind="text:cost"></span></p>
+</div>
+<div>
+    <input type="button" data-bind="click:addNewProduct,visible:(selectedProduct()?false:true)" value="Add"/>
+    <input type="button" data-bind="click:removeProduct,visible:(selectedProduct()?true:false)" value="Remove"/>
+    <input type="button" data-bind="click:doneEditingProduct,visible:(selectedProduct()?true:false)" value="Done"/>
+</div>
+<script type="text/javascript">
+    var app = new productDemo.App();
+    app.run();
+</script>
+</body>
+</html>

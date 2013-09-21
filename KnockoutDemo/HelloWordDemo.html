@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="js/knockout-2.3.0.js"></script>
+</head>
+<body>
+
+<p>First Name:<input type="text" data-bind="value:firstName"/></p>
+
+<p>Last Name:<input type="text" data-bind="value:lastName"/></p>
+
+<h2>Hello <span data-bind="text:fullName"></span></h2>
+</body>
+<script type="text/javascript">
+    //create a viewmodel
+    var ViewModel=function(firstName,lastName){
+        this.firstName=ko.observable(firstName);
+        this.lastName=ko.observable(lastName);
+        this.fullName=ko.computed(function(){
+            return this.firstName()+" "+this.lastName();
+        },this);
+      };
+    //apply the viewmodel to the view
+    ko.applyBindings(new ViewModel("wang","yan"));
+</script>
+</html>
+
