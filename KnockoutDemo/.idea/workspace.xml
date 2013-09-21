@@ -5,9 +5,9 @@
     <ignored path="KnockoutDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/HelloWordDemo.html" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379766950609" ignored="false" />
-    <file path="/App.js" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379771288623" ignored="false" />
+    <file path="/App.js" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379773929206" ignored="false" />
     <file path="/ProductModel.js" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379770371982" ignored="false" />
-    <file path="/ProductView.html" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379772246850" ignored="false" />
+    <file path="/ProductView.html" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379774417893" ignored="false" />
     <file path="/ProductViewModel.js" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379769837478" ignored="false" />
     <file path="/ProductsViewModel.js" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379770855921" ignored="false" />
     <file path="/Dummy.txt" changelist="8b84206a-4a7a-4639-9ea5-016083c986b3" time="1379771727838" ignored="false" />
@@ -30,28 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductView.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProductView.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProductView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="373" selection-end="373" vertical-scroll-proportion="0.31496063">
+            <state line="24" column="51" selection-start="825" selection-end="825" vertical-scroll-proportion="-8.275862">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductModel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ProductsViewModel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ProductManager/ProductsViewModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="36" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductModel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ProductManager/ProductModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWordDemo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWordDemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="771" selection-end="771" vertical-scroll-proportion="-15.068966">
+            <state line="20" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.4909091">
               <folding />
             </state>
           </provider>
@@ -60,7 +60,7 @@
       <file leaf-file-name="App.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ProductManager/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="12" column="55" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,10 +87,10 @@
       <list>
         <option value="$PROJECT_DIR$/HelloWordDemo.html" />
         <option value="$PROJECT_DIR$/js/ProductManager/ProductViewModel.js" />
-        <option value="$PROJECT_DIR$/js/ProductManager/App.js" />
         <option value="$PROJECT_DIR$/js/ProductManager/ProductsViewModel.js" />
-        <option value="$PROJECT_DIR$/js/ProductManager/ProductModel.js" />
         <option value="$PROJECT_DIR$/ProductView.html" />
+        <option value="$PROJECT_DIR$/js/ProductManager/App.js" />
+        <option value="$PROJECT_DIR$/js/ProductManager/ProductModel.js" />
       </list>
     </option>
   </component>
@@ -258,7 +258,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -368,37 +368,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ProductManager/ProductsViewModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="548" selection-end="548" vertical-scroll-proportion="0.5509091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ProductManager/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="12" column="55" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWordDemo.html">
+    <entry file="file://$PROJECT_DIR$/js/ProductManager/ProductsViewModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="771" selection-end="771" vertical-scroll-proportion="-15.068966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ProductManager/ProductModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="70" column="36" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProductView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="373" selection-end="373" vertical-scroll-proportion="0.31496063">
+        <state line="24" column="51" selection-start="825" selection-end="825" vertical-scroll-proportion="-8.275862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWordDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="561" selection-end="569" vertical-scroll-proportion="0.47984645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ProductManager/ProductModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="408" selection-end="408" vertical-scroll-proportion="0.4909091">
           <folding />
         </state>
       </provider>

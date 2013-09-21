@@ -14,16 +14,16 @@
 
     </select>
 </div>
-<div>
-    <p>Name:<input type="text" data-bind="value:name"/></p>
+<div data-bind="with: selectedProduct">
+    <p>Name:<input type="text" data-bind="value: name"/></p>
 
-    <p>Description:<input type="text" data-bind="value:description"/></p>
+    <p>Description:<input type="text" data-bind="value: description"/></p>
 
-    <p>Price:<input type="text" data-bind="value:price"/></p>
+    <p>Price:<input type="text" data-bind="value: price"/></p>
 
-    <p>Quantity:<input type="text" data-bind="value:quantity"/></p>
+    <p>Quantity:<input type="text" data-bind="value: quantity"/></p>
 
-    <p>Cost:<span data-bind="text:cost"></span></p>
+    <p>Cost:<span data-bind="text: cost"></span></p>
 </div>
 <div>
     <input type="button" data-bind="click:addNewProduct,visible:(selectedProduct()?false:true)" value="Add"/>
@@ -32,6 +32,7 @@
 </div>
 <script type="text/javascript">
     var app = new productDemo.App();
+
     app.run();
 </script>
 </body>

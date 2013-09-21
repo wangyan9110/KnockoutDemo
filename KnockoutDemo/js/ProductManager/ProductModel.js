@@ -14,11 +14,11 @@
 
         _self.description = ko.observable("");
 
-        _self.price = ko.observable(0.00);
+        _self.price =  ko.observable(0.00);
 
         _self.quantity = ko.observable(0);
 
-        _self.cost = ko.observable(function () {
+        _self.cost = ko.computed(function () {
             return this.price() * this.quantity();
         }, this);
     }

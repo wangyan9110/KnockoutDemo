@@ -5,7 +5,7 @@
  * Describe:define a namespace
  */
 
-windows.productDemo={};
+window.productDemo={};
 
 (function(productDemo){
     function App(){
@@ -16,4 +16,4 @@ windows.productDemo={};
     }
 
     productDemo.App=App;
-})(windows.productDemo);
+})(window.productDemo);
